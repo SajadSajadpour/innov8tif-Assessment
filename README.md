@@ -26,6 +26,23 @@ Api interface is for setting the end points for each api calles in our activitie
 Util folder contains 2 files, they are created to handle the network connectivity. once there is no internet connection the dialog will be pop up and
 the user can notice there is no internet connection. user is able to retry until there is internet connection.
 
+In AndroidManifest we need to set the permission for accessing to the internet so our app can retrieve the data from api and also NETWORK_STATE to check 
+the connectivity.
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    
+for api call i have used Retrofit.
+Retrofit is a type-safe HTTP networking library used for Android and Java.
+
+in this project i have 2 end points which i used GET method.
+1. /post 
+to get the post data
+
+2. /post/{post_id}/comments
+to get the comments data (post_id will be from post list data)
+
 
 ============================ Screenshots ===================================
 
