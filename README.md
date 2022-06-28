@@ -25,3 +25,12 @@ Api interface is for setting the end points for each api calles in our activitie
 
 Util folder contains 2 files, they are created to handle the network connectivity. once there is no internet connection the dialog will be pop up and
 the user can notice there is no internet connection. user is able to retry until there is internet connection.
+
+
+============================ Screenshots ===================================
+
+![1](https://user-images.githubusercontent.com/46099808/176118150-b383c10e-973c-447d-9dca-427bb3d62897.png)
+![2](https://user-images.githubusercontent.com/46099808/176118179-1ffcce4f-cbd7-453e-96d7-46d5ab4ce3f3.png)
+![3](https://user-images.githubusercontent.com/46099808/176118193-35ea26aa-8b1e-42d9-b8e2-a53b72597f7e.png)
+![4](https://user-images.githubusercontent.com/46099808/176118213-8447da3b-d4ce-42d8-88ae-68ec62a105db.png)
+
