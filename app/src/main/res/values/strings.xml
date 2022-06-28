@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">innov8tif</string>
+    <string name="oops">Oops!</string>
+    <string name="no_internet_msg">There is no internet connection.</string>
+    <string name="no_connection_msg">Please check your internet connection</string>
+    <string name="retry">Retry</string>
+    <string name="search">Search</string>
+</resources>
