@@ -43,6 +43,28 @@ to get the post data
 2. /post/{post_id}/comments
 to get the comments data (post_id will be from post list data)
 
+I have used below dependences to develop this application:
+
+
+    implementation 'androidx.appcompat:appcompat:1.4.1'
+    implementation 'com.google.android.material:material:1.6.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'com.google.android.material:material:1.6.0'
+
+
+    // Retrofit with OkHttp and Gson
+    implementation 'com.squareup.retrofit2:retrofit:2.1.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.1.0'
+    implementation 'com.google.code.gson:gson:2.8.6'
+    implementation 'com.squareup.retrofit:retrofit:1.9.0' // dependency for Retrofit
+
+    implementation 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+
 
 ============================ Screenshots ===================================
 
